@@ -21,6 +21,9 @@ module.exports = {
     port: 9000,
     hot: true,
   },
+  resolve: {
+    extensions: ['.jsx', '.js'],
+  },
   module: {
     rules: [
       {
@@ -44,6 +47,10 @@ module.exports = {
         },
         'postcss-loader',
         ],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
       },
     ],
   },
