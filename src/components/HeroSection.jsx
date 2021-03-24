@@ -15,8 +15,8 @@ const HeroSection = () => (
       <h1>GEORGIA AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
-        <Button className="btns" buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
-        <Button className="btns" buttonStyle='btn--primary' buttonSize='btn--large'>WATCH TRAILER {playButton}</Button>
+        <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">GET STARTED</Button>
+        <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">WATCH TRAILER {playButton}</Button>
       </div>
     </div>
 
